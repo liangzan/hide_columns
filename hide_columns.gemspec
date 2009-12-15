@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{hide_columns}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wong Liang Zan"]
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "hide_columns.gemspec",
      "lib/hide_columns.rb",
      "spec/hide_columns_spec.rb",
      "spec/spec_helper.rb"
