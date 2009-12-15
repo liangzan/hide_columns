@@ -1,17 +1,20 @@
 = hide_columns
 
-Description goes here.
+Hide Columns hides the content columns of the ActiveRecord Object. 
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but
-   bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+== Installation
+
+   $ gem install hide_columns
+
+== Usage
+
+   # Person has content_columns [ "name", "address", "gender", "hobbies" ]
+   # Note that the names must be an exact match
+   class Person < ActiveRecord::Base
+     hide_columns ["hobbies", "address"]
+   end
+
+   # Person.content_columns returns [ "name", "gender" ]
 
 == Copyright
 
