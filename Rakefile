@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "hide_columns"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Hides the content columns of ActiveRecord Model}
+    gem.description = %Q{Hides the content columns of ActiveRecord Model}
     gem.email = "zan@liangzan.net"
     gem.homepage = "http://github.com/liangzan/hide_columns"
     gem.authors = ["Wong Liang Zan"]
