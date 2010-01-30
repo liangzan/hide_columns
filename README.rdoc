@@ -2,6 +2,10 @@
 
 Hide Columns hides the content columns of the ActiveRecord Object. 
 
+== Update
+
+Hide columns is replaced by the define_columns gem. The author will be maintaining define_columns in the future.
+
 == Installation
 
    $ gem install hide_columns
